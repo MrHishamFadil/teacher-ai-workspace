@@ -113,6 +113,7 @@ When you add a new lesson page, add a matching lesson object to this file.
 
 - Do not upload full textbook PDFs.
 - Do not copy textbook pages.
+- Do not publish scanned book covers unless you have clear permission.
 - Do not copy answer keys from books.
 - Use original explanations.
 - Use curriculum-aligned but original worksheets.
