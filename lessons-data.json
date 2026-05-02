@@ -1,0 +1,147 @@
+[
+  {
+    "id": "g3-u1-l1",
+    "grade": 3,
+    "unit": 1,
+    "lessonNumber": 1,
+    "title": "My School Day",
+    "objectives": [
+      "Name common classroom routines.",
+      "Use simple present sentences about school."
+    ],
+    "vocabulary": ["classroom", "teacher", "book", "pencil", "read", "write"],
+    "grammarFocus": "Simple present with I and we",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-3/unit-1/lesson-1.html"
+  },
+  {
+    "id": "g3-u2-l1",
+    "grade": 3,
+    "unit": 2,
+    "lessonNumber": 1,
+    "title": "Family and Friends",
+    "objectives": [
+      "Describe people using simple adjectives.",
+      "Write short sentences about family members."
+    ],
+    "vocabulary": ["family", "friend", "kind", "helpful", "brother", "sister"],
+    "grammarFocus": "Adjectives before nouns",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-3/unit-2/lesson-1.html"
+  },
+  {
+    "id": "g4-u1-l1",
+    "grade": 4,
+    "unit": 1,
+    "lessonNumber": 1,
+    "title": "Healthy Habits",
+    "objectives": [
+      "Talk about daily habits.",
+      "Use adverbs of frequency in short sentences."
+    ],
+    "vocabulary": ["healthy", "exercise", "water", "sleep", "sometimes", "always"],
+    "grammarFocus": "Adverbs of frequency",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-4/unit-1/lesson-1.html"
+  },
+  {
+    "id": "g4-u2-l1",
+    "grade": 4,
+    "unit": 2,
+    "lessonNumber": 1,
+    "title": "Places Around Town",
+    "objectives": [
+      "Name common places in town.",
+      "Use prepositions to describe location."
+    ],
+    "vocabulary": ["library", "park", "market", "near", "behind", "between"],
+    "grammarFocus": "Prepositions of place",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-4/unit-2/lesson-1.html"
+  },
+  {
+    "id": "g5-u1-l1",
+    "grade": 5,
+    "unit": 1,
+    "lessonNumber": 1,
+    "title": "Learning Together",
+    "objectives": [
+      "Identify vocabulary related to teamwork and classroom learning.",
+      "Use the simple present tense to describe routines and habits.",
+      "Write short sentences about how students can learn together."
+    ],
+    "vocabulary": ["teamwork", "partner", "explain", "listen", "share", "improve", "question", "example"],
+    "grammarFocus": "Simple present tense",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "teacher-review-sample",
+    "pagePath": "grades/grade-5/unit-1/lesson-1.html"
+  },
+  {
+    "id": "g5-u2-l1",
+    "grade": 5,
+    "unit": 2,
+    "lessonNumber": 1,
+    "title": "Community Helpers",
+    "objectives": [
+      "Read about jobs in a community.",
+      "Use past tense verbs in short descriptions."
+    ],
+    "vocabulary": ["doctor", "engineer", "driver", "helped", "worked", "visited"],
+    "grammarFocus": "Regular past tense verbs",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-5/unit-2/lesson-1.html"
+  },
+  {
+    "id": "g6-u1-l1",
+    "grade": 6,
+    "unit": 1,
+    "lessonNumber": 1,
+    "title": "Future Goals",
+    "objectives": [
+      "Talk about future plans.",
+      "Use will and going to in simple sentences."
+    ],
+    "vocabulary": ["goal", "plan", "future", "career", "prepare", "achieve"],
+    "grammarFocus": "Future forms with will and going to",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-6/unit-1/lesson-1.html"
+  },
+  {
+    "id": "g6-u2-l1",
+    "grade": 6,
+    "unit": 2,
+    "lessonNumber": 1,
+    "title": "Inventors and Ideas",
+    "objectives": [
+      "Read a short biography-style text.",
+      "Explain how an idea solves a problem."
+    ],
+    "vocabulary": ["inventor", "machine", "problem", "solution", "design", "discover"],
+    "grammarFocus": "Past tense review and cause-effect connectors",
+    "videoUrl": "",
+    "worksheetUrl": "",
+    "quizUrl": "",
+    "status": "placeholder",
+    "pagePath": "grades/grade-6/unit-2/lesson-1.html"
+  }
+]
