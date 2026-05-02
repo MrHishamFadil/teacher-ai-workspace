@@ -1,0 +1,43 @@
+name: Publish approved site to GitHub Pages branch
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out approved main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare static site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir ../smart-path-site
+          rsync -av ./ ../smart-path-site/ \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='skills'
+          touch ../smart-path-site/.nojekyll
+
+      - name: Publish to gh-pages branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages-publish
+          git rm -rf .
+          cp -R ../smart-path-site/. .
+          git add .
+          git commit -m "Publish Smart Path Study Hub"
+          git push --force origin gh-pages-publish:gh-pages
