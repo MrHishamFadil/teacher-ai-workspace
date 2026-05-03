@@ -39,5 +39,5 @@ jobs:
           git rm -rf .
           cp -R ../smart-path-site/. .
           git add .
-          git commit -m "Publish Smart Path Study Hub"
+          git commit -m "Publish Mr. Hisham Connect Plus English"
           git push --force origin gh-pages-publish:gh-pages

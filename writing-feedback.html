@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing Feedback | Mr. Hisham</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><strong>MR. HISHAM</strong><span>Connect Plus English</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">☰</button>
+      <div class="nav-links" id="main-navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" type="button">Grades</button>
+          <div class="dropdown-menu">
+            <a href="grade-3.html">Grade 3</a>
+            <a href="grade-4.html">Grade 4</a>
+            <a href="grade-5.html">Grade 5</a>
+            <a href="grade-6.html">Grade 6</a>
+          </div>
+        </div>
+        <a class="nav-link" href="writing-feedback.html">Writing Feedback</a>
+        <a class="nav-link" href="about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-title">
+        <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Writing Feedback</span></div>
+        <h1>Submit Your Writing — Get Teacher Feedback</h1>
+        <p>Type or paste your writing below. Mr. Hisham reviews all submissions and sends personalised feedback to your parent's email within 24 hours.</p>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <form class="form-panel" action="#" method="post" onsubmit="return false;">
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="student-name">Student name</label>
+              <input id="student-name" name="student-name" type="text" autocomplete="name">
+            </div>
+
+            <div class="form-field">
+              <label for="grade">Grade</label>
+              <select id="grade" name="grade">
+                <option value="">Choose grade</option>
+                <option>Grade 3</option>
+                <option>Grade 4</option>
+                <option>Grade 5</option>
+                <option>Grade 6</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="writing-type">Writing type</label>
+              <select id="writing-type" name="writing-type">
+                <option value="">Choose writing type</option>
+                <option>Narrative</option>
+                <option>Opinion</option>
+                <option>Informational</option>
+                <option>Response to reading</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="parent-email">Parent email address</label>
+              <input id="parent-email" name="parent-email" type="email" autocomplete="email">
+            </div>
+
+            <div class="form-field full">
+              <label for="task">The writing task or prompt given</label>
+              <input id="task" name="task" type="text">
+            </div>
+
+            <div class="form-field full">
+              <label for="response">Student writing response</label>
+              <textarea id="response" name="response"></textarea>
+            </div>
+          </div>
+
+          <div class="button-row">
+            <button class="button button-gold" type="submit">Send My Writing</button>
+          </div>
+          <p class="form-note">This form is for Mr. Hisham's enrolled students only. Feedback is sent directly to your parent by email.</p>
+          <p class="form-note"><strong>Placeholder note:</strong> This form is not connected yet. It will be connected to an n8n automation later.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Mr. Hisham Fadil | Connect Plus English.</p>
+      <p>Content is original and teacher-created. Not affiliated with or endorsed by McGraw-Hill.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
